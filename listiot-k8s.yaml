@@ -35,6 +35,8 @@ spec:
           httpGet:
             path: /api/info
             port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 15
         ports:
         - containerPort: 5000
 ---
@@ -71,6 +73,18 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 15
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 15
 ---
 apiVersion: v1
 kind: Service
