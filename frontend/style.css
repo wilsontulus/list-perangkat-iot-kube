@@ -1,0 +1,98 @@
+/* CSS inti */
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 12px;
+    font-family: "Noto Sans", "Helvetica", "Segoe UI", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	height: 100%;
+	min-height: 100%;
+	background-color: #23263a;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 200px;
+}
+
+/* CSS untuk header */
+.header {
+  overflow: hidden;
+  background-color: #6493be;
+  padding: 8px 24px;
+  opacity: 0.8;
+  border-radius: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 16px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 12px;
+  margin-right: 8px;
+}
+
+/* Set posisi untuk kelas header kiri dan kanan */
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+/* Logo terlihat melingkar */
+.logo {
+  border-radius: 15%;
+}
+
+/* Tabel */
+.products-list {
+  padding: 4px;
+  background-color: #6090be;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: left;
+}
+
+.products-list thead {
+  font-size: 18px;
+}
+
+.products-list tbody {
+  font-size: 14px;
+}
+
+/* Semua berakhir di footer */
+
+.footer {
+  /* Posisi footer selalu menempel di bawah tampilan Web */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #385a7a;
+  color: white;
+  text-align: center;
+  
+  opacity: 0.8;
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}

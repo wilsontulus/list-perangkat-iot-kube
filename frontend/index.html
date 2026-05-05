@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <!-- Deskripsi dan metadata situs -->
+        <title>Daftar Perangkat IoT</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Deklarasi stylesheet CSS -->
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-left">
+                <h1 id="store-name">Memuat...</h1>
+            </div>
+        </div>
+        <div class="main">
+            <h3>Tambah Perangkat Baru:</h3>
+            <input type="text" id="items-input" placeholder="Nama perangkat...">
+            <button onclick="tambahItem()">Tambah</button>
+
+            <table class="products-list">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nama Produk</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr id="items-list">
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr>
+        </div>
+        
+
+        <div class="footer">
+            <h3 id="footer-identity-text">Site made by: Loading...</h3>
+        </div>
+    </body>
+</html>
